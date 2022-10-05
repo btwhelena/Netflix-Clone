@@ -21,6 +21,9 @@
 		0DC540C028EC69F10080A2DA /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540BF28EC69F10080A2DA /* DownloadsViewController.swift */; };
 		0DC540C728EC759B0080A2DA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540C628EC759B0080A2DA /* CollectionViewTableViewCell.swift */; };
 		0DC540C928ED9F840080A2DA /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540C828ED9F840080A2DA /* HeroHeaderUIView.swift */; };
+		0DC540CB28EDAE920080A2DA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540CA28EDAE920080A2DA /* APICaller.swift */; };
+		0DC540CD28EDB2920080A2DA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540CC28EDB2920080A2DA /* Movie.swift */; };
+		0DC540CF28EDB6080080A2DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC540CE28EDB6080080A2DA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		0DC540BF28EC69F10080A2DA /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		0DC540C628EC759B0080A2DA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		0DC540C828ED9F840080A2DA /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		0DC540CA28EDAE920080A2DA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0DC540CC28EDB2920080A2DA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0DC540CE28EDB6080080A2DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,7 @@
 		0DC540C328EC753A0080A2DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0DC540CC28EDB2920080A2DA /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 		0DC540C428EC755F0080A2DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DC540CE28EDB6080080A2DA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 		0DC540C528EC75710080A2DA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				0DC540CA28EDAE920080A2DA /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -323,11 +332,14 @@
 				0DC540BE28EC69C80080A2DA /* SearchViewController.swift in Sources */,
 				0DC5408D28EC66780080A2DA /* MainTabBarViewController.swift in Sources */,
 				0DC540C728EC759B0080A2DA /* CollectionViewTableViewCell.swift in Sources */,
+				0DC540CB28EDAE920080A2DA /* APICaller.swift in Sources */,
 				0DC540C928ED9F840080A2DA /* HeroHeaderUIView.swift in Sources */,
 				0DC540C028EC69F10080A2DA /* DownloadsViewController.swift in Sources */,
 				0DC5408928EC66780080A2DA /* AppDelegate.swift in Sources */,
+				0DC540CF28EDB6080080A2DA /* Extensions.swift in Sources */,
 				0DC5408B28EC66780080A2DA /* SceneDelegate.swift in Sources */,
 				0DC540BC28EC69890080A2DA /* UpcomingViewController.swift in Sources */,
+				0DC540CD28EDB2920080A2DA /* Movie.swift in Sources */,
 				0DC540BA28EC69400080A2DA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
